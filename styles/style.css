@@ -619,7 +619,7 @@ footer {
           transform: translateY(-400px);
           transition: transform 0.5s ease-in-out;
           padding: 20px 0px;
-          height: 38%;
+          height: 30%;
      }
 
      .nav-main ul.nav-menu.show {
@@ -703,7 +703,7 @@ footer {
           width: 60%;
      }
      .acorep-title-button {
-          bottom: -35%;
+          bottom: -45%;
           right: 40%;
      }
      .news-cards {
