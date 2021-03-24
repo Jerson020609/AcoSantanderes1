@@ -73,7 +73,7 @@
 
 .informacion-contacto p {
      text-align: center;
-     margin-top: 50px;
+     margin-top: 20px;
 }
 
 @media (max-width: 765px) {
@@ -89,6 +89,29 @@
 }
 @media (max-width: 400px) {
      .contact-form {
-          height: 1200px;
+          display: none;
+     }
+
+     .contact-form-button {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 40px;
+          width: auto;
+     }
+     .contact-form-button a {
+          color: #040f0f;
+          width: 100%;
+          height: auto;
+          border: 2px solid black;
+          border-radius: 10px;
+          padding: 5px;
+          transition: all 0.3s;
+          font-weight: bold;
+     }
+
+     .contact-form-button a:hover {
+          background: rgb(24, 106, 59);
+          text-transform: uppercase;
      }
 }
