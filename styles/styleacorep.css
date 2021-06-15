@@ -3,6 +3,15 @@
      border-radius: 0;
 }
 
+.logo-acorep img {
+     width: auto;
+     padding-bottom: 15px;
+}
+
+.logo-acorep::before {
+     background: rgba(0, 0, 0, 0.7);
+}
+
 @media (max-width: 808px) {
      .logo-acorep h1 {
           top: 30%;
